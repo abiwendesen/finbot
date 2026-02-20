@@ -4,7 +4,6 @@ import fetch from 'node-fetch'
 import { createClient } from "redis";
 import QuickChart from "quickchart-js";
 
-
 //const client = createClient()
 
 const chart = new QuickChart();
