@@ -46,15 +46,17 @@ Examples:
 
 ## Tech Stack
 
-- Node.js (ES Modules)
-- [grammY](https://grammy.dev/) for Telegram bot interactions
-- `node-fetch` for API requests
-- `quickchart-js` for generating chart images
-- `dotenv` for environment variable management
-- `redis` for caching support (included in the project dependencies and ready to be enabled)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![grammY](https://img.shields.io/badge/grammY-2F80ED?style=for-the-badge&logo=telegram&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![QuickChart](https://img.shields.io/badge/QuickChart-00A3E0?style=for-the-badge&logo=chartdotjs&logoColor=white)
+![dotenv](https://img.shields.io/badge/dotenv-ECD53F?style=for-the-badge&logo=dotenv&logoColor=black)
+![CoinGecko API](https://img.shields.io/badge/CoinGecko%20API-8DC63F?style=for-the-badge&logo=coingecko&logoColor=white)
 
-Additional packages used in the project include: `express`, `helmet`, `morgan`, `mysql2`, `node-cron`, and `xlsx`.
-
+Additional packages used in the project include: `helmet`, `morgan`, `node-cron`, and `xlsx`.
 ## Project Structure
 
 - `bot.js` : Main Telegram bot logic and command handlers
@@ -121,3 +123,4 @@ Note: the Redis connection block is currently scaffolded/commented in `bot.js` a
 ## License
 
 ISC
+
